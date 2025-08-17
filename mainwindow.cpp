@@ -14,7 +14,7 @@ MainWindow::MainWindow(QWidget *parent)
     setWindowIcon(QIcon(":/Calculator Icon.png"));
 
     QFont font = ui->label->font();
-    font.setPointSize(20);   // adjust size to your liking
+    font.setPointSize(20);
     ui->label->setFont(font);
 
     connect(ui->pushButton_0,SIGNAL(released()), this,SLOT(digit_pressed()));
