@@ -42,7 +42,7 @@ cd qt-calculator
 
 ### 2️⃣ Open in Qt Creator
 
-* Open the `.pro` or `CMakeLists.txt` file in **Qt Creator**
+* Open the `CMakeLists.txt` file in **Qt Creator**
 * Build & Run the project
 
 ---
